@@ -1,6 +1,7 @@
 {
     "name": "hello-world",
     "description": "Sample NodeJs web application",
+    "main": "server.js",
     "version": "0.0.1",
     "private": true,
     "devDependencies": {
@@ -9,5 +10,9 @@
     },
     "scripts": {
         "test": "mocha --recursive tests"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^2.3.0"
     }
 }
